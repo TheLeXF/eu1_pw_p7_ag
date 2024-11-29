@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.formulario {
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.boton button {
+    border-radius: 5px;
+    background-color: #17a589;
+    color: #f9f9fa;
+
+}
+
+.json {
+    text-align: center;
+    padding: 25px;
+
+}
+
+p::before {
+    content: attr(type);
+    display: block;
+    font-size: 17px;
+    padding-left: 95px;
+    text-align: left;
+    color: #39f1ee;
+}
+
+form {
+    width: 400px;
+    height: 500px;
+    background: #9f80f9;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-shadow: 15px 10px 5px 5px rgb(54, 13, 203);
+}
+
+input {
+    width: 210px;
+    background:  #e980f9 ;
+}
+
+#jsoninput {
+    width: 320px;
+    height: 150px;
+    background:  #e980f9 ;
+
+}
